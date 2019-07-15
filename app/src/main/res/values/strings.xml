@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="alc_button">ABOUT ALC</string>
+    <string name="btn_profile">MY PROFILE</string>
+    <string name="welcome_message">Welcome to ALC 4.0</string>
+    <string name="test_view">ALC Page</string>
+    <string name="my_profile">My Profile Page</string>
+    <string name="my_profile_details">My Profile</string>
+    <string name="about_alc">About ALC</string>
+    <string name="alc_page">https://andela.com/alc/</string>
+    <string name="my_name">ADEWALE IJALANA</string>
+    <string name="my_track">Track:  Android</string>
+    <string name="my_country">Country:  Nigeria</string>
+    <string name="my_email">Email:  adewaleijalana@gmail.com</string>
+    <string name="my_mobile_number">Phone Number:  2348029746117</string>
+    <string name="my_slack_username">Slack Username:  @adewaleijalana</string>
+</resources>
