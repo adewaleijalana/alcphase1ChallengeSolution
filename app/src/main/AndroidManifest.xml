@@ -11,10 +11,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".activities.ProfileActivity"
-            android:label="@string/my_profile_details">
+            android:label="@string/my_profile_details"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity">
+            </meta-data>
         </activity>
         <activity android:name=".activities.AboutAlcActivity"
-            android:label="@string/about_alc"/>
+            android:label="@string/about_alc"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity">
+            </meta-data>
+        </activity>
         <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
