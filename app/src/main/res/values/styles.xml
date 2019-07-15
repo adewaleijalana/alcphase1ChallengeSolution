@@ -19,7 +19,7 @@
     </style>
 
     <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance">
-        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:fontFamily">@font/nova_round</item>
     </style>
 
     <style name="Divider">
