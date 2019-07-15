@@ -22,15 +22,13 @@ public class AboutAlcActivity extends AppCompatActivity {
         WebSettings webSettings = abtAlc.getSettings();
         webSettings.setJavaScriptEnabled(true);
         abtAlc.setWebViewClient(new WebViewClient(){
-            @Override
-            public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
-                return false;
-            }
 
             @Override
             public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
                 handler.proceed();
             }
+
+
         });
 
         abtAlc.loadUrl("https://andela.com/alc/");
