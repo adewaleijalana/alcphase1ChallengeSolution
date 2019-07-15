@@ -6,25 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".activities.MainActivity">
 
-    <!--<android.support.design.widget.AppBarLayout
-        android:id="@+id/appBar"
-        android:layout_width="410dp"
-        android:layout_height="58dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolBar"
-            android:layout_width="199dp"
-            android:layout_height="0dp"
-            android:theme="@style/AppToolBar">
-
-        </android.support.v7.widget.Toolbar>
-
-    </android.support.design.widget.AppBarLayout>-->
-
     <TextView
         android:id="@+id/textTitle"
         android:layout_width="wrap_content"
